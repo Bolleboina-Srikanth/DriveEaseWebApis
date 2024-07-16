@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20240320101917_bookingTable.cs" />
+    <Compile Remove="Migrations\20240320101917_bookingTable.Designer.cs" />
+    <Compile Remove="Migrations\20240325074038_newBookingTable.cs" />
+    <Compile Remove="Migrations\20240325074038_newBookingTable.Designer.cs" />
+    <Compile Remove="Migrations\20240325074113_newBookingTable.cs" />
+    <Compile Remove="Migrations\20240325074113_newBookingTable.Designer.cs" />
+    <Compile Remove="Migrations\20240325074315_newBookingTable.cs" />
+    <Compile Remove="Migrations\20240325074315_newBookingTable.Designer.cs" />
+    <Compile Remove="Migrations\20240325142819_ReportTable.cs" />
+    <Compile Remove="Migrations\20240325142819_ReportTable.Designer.cs" />
+    <Compile Remove="Migrations\20240325143854_generatingReportTable.cs" />
+    <Compile Remove="Migrations\20240325143854_generatingReportTable.Designer.cs" />
+    <Compile Remove="Migrations\20240326055216_OrderTable.cs" />
+    <Compile Remove="Migrations\20240326055216_OrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20240326060044_OrderTable.cs" />
+    <Compile Remove="Migrations\20240326060044_OrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20240326060117_generatingOrderTable.cs" />
+    <Compile Remove="Migrations\20240326060117_generatingOrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20240326062832_newOrderTable.cs" />
+    <Compile Remove="Migrations\20240326062832_newOrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20240326063028_newOrderTable.cs" />
+    <Compile Remove="Migrations\20240326063028_newOrderTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.26.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.4.0" />
+    <PackageReference Include="Razorpay" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLayer\CommonLayer.csproj" />
+  </ItemGroup>
+
+</Project>
